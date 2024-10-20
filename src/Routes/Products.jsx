@@ -12,37 +12,37 @@ const Products = () => {
     const [productCard, setProducts] = useState([
         {
             id: 1,
-            image: 'public/assets/products/1.png', 
+            image: '/DashStack/assets/products/1.png', 
             title: 'Product 1',
             price: '$300'
         },
         {
             id: 2,
-            image: 'public/assets/products/2.png', 
+            image: '/DashStack/assets/products/2.png', 
             title: 'Product 2',
             price: '$300'
         },
         {
             id: 3,
-            image: 'public/assets/products/3.png', 
+            image: '/DashStack/assets/products/3.png', 
             title: 'Product 3',
             price: '$560'
         },
         {
             id: 4,
-            image: 'public/assets/products/4.png', 
+            image: '/DashStack/assets/products/4.png', 
             title: 'Product 4',
             price: '$200'
         },
         {
             id: 5,
-            image: 'public/assets/products/5.png', 
+            image: '/DashStack/assets/products/5.png', 
             title: 'Product 5',
             price: '$300.00'
         },
         {
             id: 6,
-            image: 'public/assets/products/6.png', 
+            image: '/DashStack/assets/products/6.png', 
             title: 'Product 6',
             price: '$200.00'
         }
@@ -151,7 +151,7 @@ const Products = () => {
                         Edit Product
                         </button>
                     </Link>
-                    <img src="public/assets/icons/trash-03.png" className="w-15 py-2 cursor-pointer"alt="Delete"onClick={() => openModal(product)}/>
+                    <img src="/DashStack/assets/icons/trash-03.png" className="w-15 py-2 cursor-pointer"alt="Delete"onClick={() => openModal(product)}/>
                     </div>
                 </div>
                 </div>

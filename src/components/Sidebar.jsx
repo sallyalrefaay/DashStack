@@ -44,7 +44,7 @@ const Sidebar = () => {
             <div></div>
             <div className='rotate-90'><i className="fa-solid fa-window-minimize"></i></div>
             <div className='cursor-pointer' onClick={toggleTheme}>
-            <img src={`public/assets/icons/${darkMode ? 'sun_fill.svg' : 'Moon_fill.svg'}`}/>
+            <img src={`/DashStack/assets/icons/${darkMode ? 'sun_fill.svg' : 'Moon_fill.svg'}`}/>
             </div>
         </div>
     </div>

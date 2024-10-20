@@ -102,7 +102,7 @@ const Register = () => {
                 {profileImage ? (
                     <img className='rounded-full w-24 h-24' src={URL.createObjectURL(profileImage)}/>
                 ) : (
-                    <img className='rounded-full w-24 h-24' src="public/assets/profile-avatar.png"/>
+                    <img className='rounded-full w-24 h-24' src="/DashStack/assets/profile-avatar.png"/>
                 )}
                 </label>
             </div>

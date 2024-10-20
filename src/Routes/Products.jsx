@@ -131,7 +131,7 @@ const Products = () => {
             <Link to="/Create">
                 <button type="submit"
                 className="flex items-center justify-center gap-2 bg-sky-600 text-white w-40 h-10 rounded-md">
-                <img src="public/assets/icons/creatProduct.png" alt="" />
+                <img src="/DashStack/assets/icons/creatProduct.png" alt="" />
                 Create Product
                 </button>
             </Link>

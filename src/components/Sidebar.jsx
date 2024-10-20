@@ -33,7 +33,7 @@ const Sidebar = () => {
             <Link to = "/">
             <button type="submit" 
             className="flex items-center justify-center gap-2 bg-sky-600 text-white w-36 h-10 rounded-md">
-                <img src="/public/assets/icons/btn.svg" alt="" />
+                <img src="//DashStack/assets/icons/btn.svg" alt="" />
                 Log Out
             </button>
             </Link>

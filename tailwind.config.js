@@ -7,7 +7,7 @@ export default {
         'h1Color': '#202224'
       },
       backgroundImage: {
-        'auth-bg': "url('/public/assets/auth-bg.png')"
+        'auth-bg': "url('//DashStack/assets/auth-bg.png')"
       },
     },  
   },

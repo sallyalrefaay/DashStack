@@ -21,6 +21,6 @@ body.dark {
 
 
 .backGround{
-  background-image: url(/DashStack/assets/auth-bg.png);
+  background-image: url("/DashStack/assets/auth-bg.png");
   background-size: cover;
 }

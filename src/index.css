@@ -18,9 +18,3 @@ body.dark {
   background-color: #333333;
   color: #ffffff;
 }
-
-
-.backGround{
-  background-image: url("/DashStack/assets/auth-bg.png");
-  background-size: cover;
-}

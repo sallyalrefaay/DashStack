@@ -38,7 +38,7 @@ const Login = () => {
         }
 
     return (
-    <div className="backGround h-screen flex justify-center items-center bg-auth-bg bg-cover bg-center">
+    <div className=" h-screen flex justify-center items-center bg-auth-bg bg-cover bg-center">
         <form onSubmit={handleSubmit} className='text-center h-[550px] w-[450px] rounded-2xl py-6 px-8 bg-white'>
             <h1 className='text-h1Color text-lg font-extrabold leading-8'>Login to Account</h1>
             <p className='text-sm font-semibold leading-5'>Please enter your email and password to continue</p>
